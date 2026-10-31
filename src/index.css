@@ -189,3 +189,10 @@
     transform: scaleX(1) !important;
   }
 }
+/* Force hide Netlify automatic injected badge elements */
+[id*="netlify"], [class*="netlify"], iframe[src*="netlify"], div[class*="badge"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
