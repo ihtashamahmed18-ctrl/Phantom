@@ -64,7 +64,7 @@ export default function Navbar({ onSignOut }: NavbarProps) {
           {/* Logo */}
           <Link to="/" className={`group flex items-center gap-3 ${logoColor}`}>
             <span className="flex h-9 w-9 items-center justify-center border border-gold-400/60 text-gold-300 transition-colors duration-300 group-hover:border-gold-300 group-hover:bg-gold-400/10">
-              <span className="font-serif text-lg font-semibold leading-none">L</span>
+              <span className="font-serif text-lg font-semibold leading-none">LTS</span>
             </span>
             <span className="font-serif text-xl font-medium tracking-wide">
               LTS WELDING HOUSE
